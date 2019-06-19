@@ -5,7 +5,7 @@
 
 ## Input Parameters 
 BECKEY takes as input five parameters:
-- `File_FullPath` : the full path of the file where the keys are going to be discovered
+- `File_FullPath` : the full path of the file where the keys are going to be discovered (the file should contain only instances of one class)
 - `n` : the number of exceptions (n will lead to the discovery of n-non keys and then the extraction of (n-1)-almost keys
 )
 - `Semantic` : the semantic of the discovered keys (one of the following options: Skeys, Fkeys or SFkeys) 
