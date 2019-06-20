@@ -1,6 +1,10 @@
 # Running Example
 
-In this example we demonstrate a scenario where ROCKER does not discover the complete set of minimal keys discovered in a dataset. 
+In this example we demonstrate a scenario where ROCKER does not discover the complete set of minimal keys as claimed. 
 
-More precisely, test1.rdf and test2.rdf contain exactly the same information for 6 people from p1 to p6. We observe that by changing the name of the properties in the first case (test1.rdf) ROCKER discovers one key composed of three properties while in the second case Rocker discovers one keys composed of two properties. In the first case the case discovered does not refer to a minimal key. This prove that the tool provided is not conforming to the description of the algorithm in the paper. 
+More precisely, we provide two test datasets, dataset1.rdf and dataset2.rdf, that contain exactly the same information for 6 people (Person1..Person6). Three different properties are used to describe these people. 
+
+The only difference between the two files is that the properties are not named in the same way. Therefore, the keys discovered in both datasets should be of the same size. This is not the case using Rocker. 
+
+We observe that when Rocker is executed on dataset1, a key composed of three properties is discovered. On the contrary, when Rocker is executed on dataset2 a key composed of two properties is discovered. The correct minimal key in this scenario is the key of size two while the other corresponds to a non-minimal key. This example proves that the tool does not always provides minimal keys as claimed in the description of the algorithm in the paper. 
 
