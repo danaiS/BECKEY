@@ -13,7 +13,7 @@ BECKEY takes as input five parameters:
 - `TimeLimit` : the maximum time that BECKEY is going to be executed - if the discovery does not terminate before the end of the maximum time limit no keys are going to be discovered  (OPTIONAL)
 
 ## Input File Format 
-The file has to be in a n-triple format.For example: 
+The file has to be in a n-triple format. For example: 
 
 \<michael_phelps\> \<db:birthdate\> "1985-06-30".   (space separated)
 
