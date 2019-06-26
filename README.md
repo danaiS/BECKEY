@@ -1,4 +1,4 @@
-# BECKEY
+# BECKEY: Understanding, Comparing and Discovering Keys of Different Semantics in Knowledge Bases
 
 ## Description
  BECKEY is a semantic agnostic approach that discovers keys for three different semantics proposed in the context of the Semantic Web (S-key, F-key and SF-key semantics). More precisely, BECKEY discovers the complete set of minimal keys for a given semantic. This approach is able to discover keys under the presence oferroneous data or duplicates (i.e., almost keys). 
