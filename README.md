@@ -15,11 +15,11 @@ BECKEY takes as input five parameters:
 ## Input File Format 
 The file has to be in a n-triple format.For example: 
 
-\<michael_phelps\> \<db:birthdate\> "1985-06-30".
+\<michael_phelps\> \<db:birthdate\> "1985-06-30".   (space separated)
 
 Or
 
-michael_phelps db:birthdate  1985-06-30  (separated by tabs)
+michael_phelps db:birthdate  1985-06-30   (tab separated)
 
 
 
